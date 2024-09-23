@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcour</title>
+    <meta name="keywords" content="HTML, CSS, Portfolio">
+    <meta name="author" content="Mathieu">
+    <link rel="stylesheet" href="/assets/css/import.css">
+</head>
+<body>
+    <nav id="barre-top-nav">
+        <div class="menu-principal">
+            <ul>
+                <li><a href="/pages/parcour/index.html">Parcour</a></li>
+                <li><a href="/pages/a-propos/index.html">A propos</a></li>
+            </ul>
+        </div>
+        <a id="mon-logo" href="/index.html">
+            <svg id="mon-logo-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 421.88 171.44">
+                <defs>
+                    <style>
+                        .cls-1 {
+                            stroke-width: 0px;
+                        }
+                        
+                        .cls-2 {
+                            font-family: CascadiaMono-Regular, 'Cascadia Mono';
+                            font-size: 60px;
+                            font-variation-settings: 'wght' 400;
+                        }
+                    </style>
+                </defs>
+                <g id="Calque_1-2" data-name="Calque 1">
+                    <g>
+                        <text class="cls-2" transform="translate(0 50.8)"><tspan x="0" y="0">&gt;TekGeek_dev</tspan></text>
+                        <g>
+                            <path class="cls-1" d="M281.63,118.6l-35.8-37.23c-1.11-1.16-3.12-1.2-4.28-.08l-8.07,7.76c-1.21,1.16-1.24,3.08-.08,4.28l25.94,26.97-26.97,25.94c-1.21,1.16-1.24,3.08-.08,4.28l7.76,8.07c.56.58,1.32.91,2.12.93s1.58-.29,2.16-.85l37.22-35.8"/>
+                            <path class="cls-1" d="M140.25,120.12l35.8,37.23c.56.58,1.32.91,2.12.93s1.58-.29,2.16-.85l8.07-7.76c1.21-1.16,1.24-3.07.08-4.28l-25.94-26.97,26.97-25.94c1.21-1.16,1.24-3.08.08-4.28l-7.76-8.07c-.56-.58-1.32-.91-2.12-.93s-1.58,.29-2.16,.85l-37.22,35.8"/>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+        </a>
+        <aside class="bouton-vers-contact">
+            <ul>
+                <li class="active-link-righ-menu"><a href="/pages/contact/index.html">Contact</a></li>
+            </ul>
+        </aside>
+    </nav>
+    <header>
+        <h2 class="titre-vert">Formulaire</h2>
+    </header>
+    <main>
+         <div class="contenu-principal">
+                <main id="formulaire">
+                    <h3>Merci de votre intérêt !<br> Veuillez remplir ce formulaire pour que je puisse vous répondre au plus vite</h3>
+                    <form action="" method="get">
+                        <label for="champ_nom">Nom</label><br>
+                        <input required placeholder="nom" type="text" name="nom" id="champ_nom" pattern="[A-Za-z]+"><br>
+
+                        <label for="champ_prenom">Prénom</label><br>
+                        <input required placeholder="prénom" type="text" name="prenom" id="champ_prenom" pattern="[A-Za-z]+"><br>
+
+                        <label for="champ_organisation">Organisation</label><br>
+                        <input placeholder="organisation" type="text" name="organisation" id="champ_organisation" /><br>
+
+                        <label for="champ_telephone">Numéro de téléphone</label><br>
+                        <input required placeholder="numéro de téléphone" type="tel" name="telephone" id="champ_telephone" pattern="[0-9]{10}" /><br>
+                    
+                        <label for="champ_courriel">Courriel</label><br>
+                        <input required placeholder="courriel" type="email" name="courriel" id="champ_courriel" /><br>
+                        
+                        <label for="champ_raison">Raison du message</label><br>
+                        <input required placeholder="raison de votre message" type="text" name="raison" id="champ_raison" /><br>
+
+                        <label for="champ_message">Message</label><br>
+                        <textarea required placeholder="votre message" name="message" id="champ_message" rows="10" cols="40"></textarea><br>
+
+                        <label for="champ_source">Comment avez-vous entendu parler de nos services ?</label><br>
+                        <select name="source" id="champ_source" required>
+                            <option value="" disabled selected>Sélectionnez une option</option>
+                            <option value="annonce">Annonce</option>
+                            <option value="reference">Référence</option>
+                            <option value="recherche">Recherche</option>
+                            <option value="aucune">Aucune de ces réponses</option>
+                        </select><br>
+
+                        <button class="submited" type="submit">Soumettre le formulaire</button>
+                        <button class="refused" type="reset">Rétablir le formulaire</button>
+                    </form>
+                </main>
+            </div>
+    </main>
+    <footer>
+        <span>2024 &copy; Ledeur_Mathieu</span> 
+    </footer>
+</body>
+</html>

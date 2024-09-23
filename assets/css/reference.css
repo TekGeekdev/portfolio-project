@@ -1,0 +1,47 @@
+/***********
+reference area
+*********/
+[id="reference"] {
+    margin-top: var(--space-middle);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5dvh;
+    justify-content: space-around;
+}
+
+
+
+/***********
+card stuff
+*********/
+
+.reference-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 35ch;
+    border: 6px solid var(--accent);
+    border-radius: var(--space-tiny);
+    background-color: var(--highlight);
+    padding: var(--space-very-tiny);
+    -webkit-box-shadow: 16px 20px 12px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 16px 20px 12px -6px rgba(0,0,0,0.75);
+    box-shadow: 16px 20px 12px -6px rgba(0,0,0,0.75);
+}
+
+.reference-card a {
+    margin-top: var(--space-small);
+}
+
+.reference-card p {
+    margin-top: var(--space-tiny);
+    text-align: center;
+}
+
+.reference-card .logo-youtube {
+    border-radius: 50%;
+}
+
+.strong-ref {
+    color: var(--tittle-text);
+}

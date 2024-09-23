@@ -1,0 +1,53 @@
+.card {
+    max-width: 60ch;
+    display: flex ;
+    flex-direction: column;
+    padding: var(--space-very-tiny);
+    
+}
+/* police color card */
+
+
+.card .tittle-card {
+    color: var(--tittle-text);
+}
+
+.card p {
+    color: var(--text-card);
+}
+
+.card .subtittle-card {
+    color: var(--accent);
+}
+
+/* rythme */
+
+h3+p , h4+p {
+    margin-top: var(--space-regular);
+}
+
+ .card .bouton-vert {
+    margin-top: var(--space-middle);
+}
+
+.flexend {
+    align-self: flex-end;
+}
+
+.card+.card {
+    margin-top: var(--space-middle);
+} 
+
+.card h3+h4 {
+    margin-top: var(--space-middle);
+}
+
+/*glass efect https://hype4.academy/tools/glassmorphism-generator */ 
+.glass-effect {
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}

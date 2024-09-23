@@ -1,0 +1,28 @@
+
+.bouton-vert {
+    display: inline-block;
+    background-color: var(--accent);
+
+    color: var(--tittle-text);
+    text-decoration: none;
+	font-size: var(--h5);
+	font-family: var(--police-p);
+	font-weight: bold;
+    max-width: max-content;
+    margin-inline : auto;
+
+    
+    padding: var(--space-small);
+    border: none;
+    border-radius: var(--space-small);
+    transition-property: background-color, color;
+    transition-duration: 750ms, 750ms;
+    transition-timing-function: linear;
+
+}
+
+.bouton-vert:hover {
+    background-color: var(--highlight);
+    color: var(--accent);
+    transition-duration: 250ms, 250ms;
+}

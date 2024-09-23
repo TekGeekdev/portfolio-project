@@ -1,0 +1,111 @@
+[id="barre-top-nav"] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid lightslategray;
+}
+
+[id="barre-top-nav"] .menu-principal > ul {
+    display: flex;
+    gap: var(--space-big);
+}
+
+[id="barre-top-nav"] ul {
+ margin-top: var(--space-small);
+ margin-bottom: var(--space-small);
+}
+
+[id="barre-top-nav"] a {
+    color: var(--tittle-text);
+    font-size: var(--h5);
+    font-family: var(--police-tittle);
+    font-weight: 600;
+}
+
+
+[id="barre-top-nav"] .bouton-vers-contact {
+    margin-right: var(--space-moyen);
+}
+
+.bouton-vers-contact li {
+    border: 2px solid var(--accent);
+    border-radius: 15px;
+    padding: var(--space-very-tiny);
+    transition-property: border, background-color;
+    transition-duration: 1s;
+}
+
+/************* 
+mon logo en svg, quel galere!!! 
+**************/
+/* taille svg */
+
+[id="mon-logo"] svg {
+    min-width: 200px;
+    padding: var(--space-very-tiny);
+ }
+
+ #mon-logo-svg .cls-1 {
+    fill: rgb(95, 66, 192) /* Couleur initiale <> */
+}
+
+#mon-logo-svg .cls-2 {
+    fill: var(--accent); /* Couleur initiale texte */
+}
+
+/* transistion avec effet néon */
+#mon-logo-svg {
+    transition: all 0.3s ease-in-out;
+}
+
+#mon-logo-svg .cls-1,
+#mon-logo-svg .cls-2 {
+    filter: none; 
+    transition: all 0.3s ease-in-out;
+}
+
+#mon-logo-svg:hover .cls-1,
+#mon-logo-svg:hover .cls-2 {
+    fill: white;
+    filter: drop-shadow(0 0 10px rgba(0, 255, 255, 0.7)) 
+            drop-shadow(0 0 20px rgba(0, 255, 255, 0.5)) 
+            drop-shadow(0 0 30px rgba(0, 255, 255, 0.3));
+}
+
+/* effet active poge */
+.active-page-logo {
+    fill: white;
+    filter: drop-shadow(0 0 10px rgba(0, 255, 255, 0.7)) 
+            drop-shadow(0 0 20px rgba(0, 255, 255, 0.5)) 
+            drop-shadow(0 0 30px rgba(0, 255, 255, 0.3));
+}
+
+/***********
+effet survol lien
+***********/
+.active-link-left-menu {
+    border-bottom: 4px solid var(--accent);
+    background-color: var(--highlight);
+}
+
+[id="barre-top-nav"] .menu-principal a {
+    transition-property: border-bottom;
+    transition-duration: 250ms;
+}
+
+[id="barre-top-nav"] .menu-principal a:hover {
+    border-bottom: 4px solid var(--accent);
+    background-color: var(--highlight);
+}
+
+.active-link-righ-menu {
+    border:  2px solid transparent;
+    background-color: var(--accent);
+}
+
+.bouton-vers-contact li:hover {
+    border:  2px solid transparent;
+    background-color: var(--accent);
+    transition-duration: 400ms;
+}
+

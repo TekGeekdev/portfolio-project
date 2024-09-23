@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 421.88 171.44">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 0px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #000;
+      }
+
+      .cls-2 {
+        font-family: CascadiaMono-Regular, 'Cascadia Mono';
+        font-size: 60px;
+        font-variation-settings: 'wght' 400;
+      }
+    </style>
+  </defs>
+  <g id="Calque_1-2" data-name="Calque 1">
+    <g>
+      <text class="cls-2" transform="translate(0 50.8)"><tspan x="0" y="0">&gt;TekGeek_dev</tspan></text>
+      <g>
+        <path class="cls-1" d="M281.63,118.6l-35.8-37.23c-1.11-1.16-3.12-1.2-4.28-.08l-8.07,7.76c-1.21,1.16-1.24,3.08-.08,4.28l25.94,26.97-26.97,25.94c-1.21,1.16-1.24,3.08-.08,4.28l7.76,8.07c.56.58,1.32.91,2.12.93s1.58-.29,2.16-.85l37.22-35.8"/>
+        <path class="cls-1" d="M140.25,120.12l35.8,37.23c.56.58,1.32.91,2.12.93s1.58-.29,2.16-.85l8.07-7.76c1.21-1.16,1.24-3.07.08-4.28l-25.94-26.97,26.98-25.94c.58-.56.91-1.32.93-2.12s-.29-1.58-.85-2.16l-7.76-8.07c-.56-.58-1.32-.91-2.12-.93s-1.58.29-2.16.85l-37.23,35.8"/>
+        <path class="cls-1" d="M201.13,171.44l31.76-100.31c.24-.77.17-1.6-.2-2.31-.37-.71-1.01-1.25-1.77-1.49l-6.38-2.02c-1.59-.51-3.3.38-3.8,1.97l-31.76,100.31"/>
+      </g>
+    </g>
+  </g>
+</svg>

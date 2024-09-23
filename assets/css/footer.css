@@ -1,0 +1,18 @@
+main+footer {
+    margin-top: var(--space-very-big);
+    
+}
+
+footer {
+    text-align: center;
+    background-color: var(--highlight);
+}
+
+footer span {
+    display: inline-block;
+    font-size: var(--h4);
+    font-family: var(--police-tittle);
+    color: var(--text);
+    padding: var(--space-small);
+    
+}

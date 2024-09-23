@@ -1,0 +1,43 @@
+[id="formulaire"] {
+    color: var(--tittle-text);
+}
+
+[id="formulaire"] label {
+    color: var(--text);
+    font-size: var(--p);
+    font-family: var(--police-p);
+
+}
+
+[id="formulaire"] label:first-child{
+    margin-top: var(--space-big);
+}
+
+[id="formulaire"] label {
+    display: inline-block;
+    margin-top: var(--space-regular);
+}
+
+[id="formulaire"] input,
+[id="formulaire"] textarea,
+[id="formulaire"] select {
+    margin-top: var(--space-small);
+}
+
+/* bouton */ 
+[id="formulaire"] button{
+    margin-top: var(--space-regular);
+    margin-right: 5%;
+    padding: var(--space-tiny);
+    font-family: var(--police-p);
+    border-radius: var(--space-small);
+
+}
+
+[id="formulaire"] .submited {
+    background-color: #06e11c;
+}
+
+[id="formulaire"] .refused {
+    background-color: #ff3e52;
+}

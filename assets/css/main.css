@@ -1,0 +1,108 @@
+nav+header {
+    margin-top: var(--space-very-big);
+}
+
+/* header */
+
+header .titre-principal {
+    font-size: var(--h1);
+    font-family: var(--police-tittle);
+    color: var(--tittle-text);
+}
+
+header .titre-vert {
+    font-size: var(--h1);
+    font-family: var(--police-tittle);
+    color: var(--accent);
+    margin-top: var(--space-regular);
+}
+
+header p {
+    margin-top: var(--space-regular); 
+    color: var(--text);
+}
+
+header>a {
+    margin-top: var(--space-middle);
+}
+
+
+/***********
+Contenu princicpal
+************/
+
+header+main {
+    margin-top: var(--space-very-big);
+}
+
+.contenu-principal {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/***********
+secondary-content
+************/
+
+ /* rythme */
+
+.alternative-content {
+    margin-top: var(--space-very-big);
+}
+
+.alternative-content h3+h4 {
+    margin-top: var(--space-big);
+}
+
+.alternative-content h4 {
+    margin-top: var(--space-regular);
+}
+
+/* style */
+
+.alternative-content h3 {
+    color: var(--tittle-text);
+}
+
+.alternative-content h4 {
+    color: var(--accent);
+    border-bottom: 2px solid lightslategray;
+}
+
+/* image */
+
+.alternative-content img {
+    margin-top: var(--space-big);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+}
+
+/***********
+special about me
+************/
+
+.article-about-me+.article-about-me {
+    margin-top: var(--space-big) ;
+}
+
+.special-title-aboutme {
+    color: var(--tittle-text);
+    border-bottom: 2px solid var(--accent);
+}
+
+/***********
+movie
+************/
+
+video {
+    max-width: 100%;
+    margin-top: var(--space-big);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
